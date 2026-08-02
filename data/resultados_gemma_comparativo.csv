@@ -1,0 +1,25 @@
+model,pipeline,run_id,step,latency_sec,input_tokens
+gemma2:2b,Naive (Acumulativo),1,1,7.22,107
+gemma2:2b,Naive (Acumulativo),1,2,6.25,165
+gemma2:2b,Naive (Acumulativo),1,3,6.92,225
+gemma2:2b,Naive (Acumulativo),1,4,5.08,266
+gemma2:2b,Optimizado (Pruning),1,1,6.58,71
+gemma2:2b,Optimizado (Pruning),1,2,8.23,108
+gemma2:2b,Optimizado (Pruning),1,3,6.86,113
+gemma2:2b,Optimizado (Pruning),1,4,5.82,105
+gemma2:2b,Naive (Acumulativo),2,1,8.87,107
+gemma2:2b,Naive (Acumulativo),2,2,6.31,165
+gemma2:2b,Naive (Acumulativo),2,3,6.53,225
+gemma2:2b,Naive (Acumulativo),2,4,5.65,266
+gemma2:2b,Optimizado (Pruning),2,1,8.56,71
+gemma2:2b,Optimizado (Pruning),2,2,7.7,105
+gemma2:2b,Optimizado (Pruning),2,3,7.76,112
+gemma2:2b,Optimizado (Pruning),2,4,8.13,103
+gemma2:2b,Naive (Acumulativo),3,1,9.4,107
+gemma2:2b,Naive (Acumulativo),3,2,7.0,165
+gemma2:2b,Naive (Acumulativo),3,3,7.51,225
+gemma2:2b,Naive (Acumulativo),3,4,8.14,266
+gemma2:2b,Optimizado (Pruning),3,1,11.57,71
+gemma2:2b,Optimizado (Pruning),3,2,7.29,107
+gemma2:2b,Optimizado (Pruning),3,3,6.81,115
+gemma2:2b,Optimizado (Pruning),3,4,4.67,103
