@@ -4,7 +4,7 @@
 [![Model](https://img.shields.io/badge/Model-Gemma_2_2B-google?logo=google)](https://ai.google.dev/gemma)
 [![Framework](https://img.shields.io/badge/Execution-Ollama-black)](https://ollama.com/)
 
-Este repositorio contiene el código fuente, los scripts de benchmarking, los datasets sintéticos y los datos de rendimiento asociados al póster presentado en la **Second South American NLP School** (3 y 4 de agosto de 2026, Buenos Aires, Argentina).
+Este repositorio contiene el código fuente, los scripts de benchmarking, los datasets sintéticos y los datos de rendimiento asociados al póster presentado en la [**Second South American NLP School**](https://south-american-nlp-school.dc.uba.ar/) (3 y 4 de agosto de 2026, Buenos Aires, Argentina).
 
 ---
 
@@ -85,4 +85,7 @@ ollama pull gemma2:2b
 **Escalabilidad a Gemma 2 (9B):** Evaluar el mismo pipeline sobre infraestructura con GPU dedicada para determinar si la reducción de tokens en el prefill genera un impacto estadísticamente significativo en la latencia a mayor escala de parámetros.
 
 **Compresión Semántica Activa:** Reemplazar el truncado estático por un módulo de resumen recursivo utilizando la propia Gemma 2B para preservar la coherencia contextual a largo plazo.
+
+---
+Contacto: Lesly Zerna [LinkedIn](https://www.linkedin.com/in/lesly-zerna/)
    
