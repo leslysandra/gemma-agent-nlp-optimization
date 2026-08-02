@@ -67,7 +67,7 @@ ollama pull gemma2:2b
 ### Pasos de Ejecución
 1. **Clonar este repositorio:**
    ```bash
-   git clone https://github.com/leslysandra/gemma-agent-nlp-optimizatio.git
+   git clone https://github.com/leslysandra/gemma-agent-nlp-optimization.git
    cd gemma-agent-nlp-optimization
    
 2. **Instalar dependencias de Python:**
